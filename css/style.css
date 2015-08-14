@@ -219,6 +219,18 @@ header nav .menu li a{
     background-color: #fff;
     height: 400px;
 }
+.box-text p a {
+    color: #616265;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.box-text p a:hover {
+    color: #616265;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
 .box-img {
 	border: 1px solid #dbdbdb;
 	padding: 28px 23px 31px;
@@ -966,12 +978,25 @@ footer .footer-social a:hover{
 	color:#a1a1a1;
 	font-size: 11px;
 }
+.owl-details .details-desc a{
+    text-transform: uppercase;
+    color:#a1a1a1;
+    font-size: 11px;
+    text-decoration: none;
+}
+.owl-details .details-desc a:hover{
+    text-transform: uppercase;
+    color:#a1a1a1;
+    font-size: 11px;
+    text-decoration: none;
+}
 .owl-details .item{
 	text-align: center;
 	font-family: 'Open sans',sans-serif;
 	font-weight: 400;
 	letter-spacing: 1px;
 }
+
 /***** PAGE DETAILS VIDEO AND BLOG******/
 .video-container {
 	position:relative;
