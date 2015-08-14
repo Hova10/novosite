@@ -5,14 +5,17 @@
           <div class="row">
             <div class="col-md-12">
                <div class="box-content">
-		        <h1>Experiences</h1>
+		        <h1>Experience</h1>
                 <div class="col-md-6">
                     <div class="box-text">
                             <h2>MY Journey so far</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ab iure error cumque laboriosam, sed asperiores, dolore sit ullam reiciendis amet, labore iusto porro ipsa commodi eveniet ea recusandae consequuntur esse impedit sint accusamus placeat. Quibusdam a doloribus, consequuntur, porro autem illum enim quisquam quidem excepturi ea. Fuga, perferendis, quae!
+                            <p>
+								My first contact with Web Development was back in early 2014 when i was looking for another area of expertise to work. I started reading about Web Development and the more read, the more the interest grew in me. So i decided to invest in this field and get some actual classes in the subject.
                             </p>
-                            <!-- <p class="slogan">" Creativity requires the courage to let go of certainties"</p> -->
-                            <!--<img class="signature" src="images/signature.jpg" alt="" />-->
+							<p>
+								During this time, every little spare time i had, i spent it online doing tutorials and reading more on Web Development.
+							</p>
+							<p>1 year has passed since my 1st contact with this area, and the passion i have for Front End just keeps growing for every day that passes and so are my skills...</p>
                         </div>
                 </div>
                 <div class="col-md-6">
@@ -23,19 +26,19 @@
 					    <div class="skills-box">
 							    <div class="skills-progress">
 								    <p>HTML5<span>95%</span></p>
-								    <div class="meter nostrips develope">
+								    <div class="meter nostrips">
 									    <p style="width: 95%"></p>
 								    </div>
 								    <p>CSS/LESS<span>90%</span></p>
-								    <div class="meter nostrips design">
+								    <div class="meter nostrips">
 									    <p style="width: 90%"></p>
 								    </div>
 								    <p>Javascript/Jquery<span>80%</span></p>
-								    <div class="meter nostrips branding">
+								    <div class="meter nostrips">
 									    <p style="width: 80%"></p>
 								    </div>
 								    <p>AngularJs<span>65%</span></p>
-								    <div class="meter nostrips web-applications">
+								    <div class="meter nostrips">
 									    <p style="width: 65%"></p>
 								    </div>
 							    </div>
@@ -78,3 +81,25 @@
          </div>
       </div>
 	</section><!-- cd-section -->
+<script>
+	$(function() {
+	    try {
+
+	                var skillBar = $('.skills-progress');
+	                skillBar.appear(function () {
+
+	                    var animateElement = $(".meter > p");
+	                    animateElement.each(function () {
+	                        $(this)
+						        .data("origWidth", $(this).width())
+						        .width(0)
+						        .animate({
+						            width: $(this).data("origWidth")
+						        }, 1800);
+	                    });
+
+	                });
+	            } catch (err) {
+	        }
+	});
+</script>

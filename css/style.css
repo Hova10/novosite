@@ -1,32 +1,4 @@
-﻿
-
-/*** LOGO ***/
-
-/*** MENU ***/
-   /* + Mini Menu*/
-
-/**** STRUCTURE ***/
-
-/****** SKILLS ******/
-
-/***************PAGE PORTFOLIO/GALLERY*********************/
-    /* + Effect hover gallery */
-
-
-/*** EXPERIENCES *****/
-
-/*** CONTACT *****/
-
-/*** GOOGLE MAPS ****/
-
-/*** FOOTER ****/
-
-/*** BUTTON TOTOP *****/
-
-/***** PAGE DETAILS ******/
-
-
-html, body {
+﻿html, body {
     height: 100%;
 }
 
@@ -158,10 +130,10 @@ img {
     animation: fadeInUp 2s ease-in-out;
 }*/
 .page-effect.ng-enter 		{
-    -webkit-animation: fadeInDown 2s ease-in;
-    -moz-animation: fadeInDown 2s ease-in;
-    -o-animation: fadeInDown 2s ease-in;
-    animation: fadeInDown 2s ease-in;
+    -webkit-animation: fadeInDown 1s ease-in;
+    -moz-animation: fadeInDown 1s ease-in;
+    -o-animation: fadeInDown 1s ease-in;
+    animation: fadeInDown 1s ease-in;
 }
 
 /***LOGO***/
@@ -278,6 +250,18 @@ header nav .menu li a{
     float: right;
     color: #434343;
 }
+.skills-box meter .skill1{
+max-width: 95% !important;
+}
+.skills-box meter .skill2{
+width: 90% !important;
+}
+.skills-box meter .skill3{
+max-width: 80% !important;
+}
+.skills-box meter .skill4{
+max-width: 65% !important;
+}
 
 
 /***************PAGE PORTFOLIO/GALLERY*********************/
@@ -317,6 +301,7 @@ dt { margin-right: 5px; }
 	-webkit-transition: max-width 0.5s;
 	-moz-transition: max-width 0.5s;
 	transition: max-width 0.5s;
+    white-space: nowrap;
 }
 .cl-effect-11.current a::before {
 	content: "";
@@ -381,6 +366,7 @@ dt { margin-right: 5px; }
 	text-align: center;
 	cursor: pointer;
 	margin-bottom: 30px;
+    border: 1px solid #dddddd;
 }
 
 .grid figure img {
@@ -533,144 +519,6 @@ figure.effect-oscar:hover img {
 	font-size: 25px;
 	color: #ddd;
 }
-
-/***BLOG*****/
-
-.box-content.blog {
-	padding: 100px 0 0 0;
-}
-
-.blog .owl-details .item {
-	text-align: left;
-    font-family: 'Open sans',sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-.blog .owl-carousel.owl-details .owl-item {
-	border: 0px;
-}
-.blog .owl-carousel .owl-item {
-	border: 0px;
-}
-.blog .owl-details .details-title {
-    text-transform: uppercase;
-    color: #111;
-    margin: 20px 0 0 0;
-    font-weight: 700;
-    border-bottom: 1px solid #212121;
-    margin-bottom: 20px;
-}
-.itemPreview {
-    width: 30px;
-    height: 16px;
-    overflow: hidden;
-    right: 0px;
-    padding: 10px 0px;
-    text-indent: -1000px;
-    background-image: url(../images/eye_off_on.png);
-    background-repeat: no-repeat;
-    background-position: 0px 50%;
-    cursor: pointer;
-    float: right;
-}
-.itemPreview:hover {
-    background-position: -30px 50%;
-}
-
-.date-blog {
-    font-style: italic;
-    color: #8c8d8e;
-}
-.owl-theme .owl-controls .owl-page span {
-	background: #ccc;
-}
-
-.owl-theme .owl-controls .owl-page.active span {
-	background: #333;
-    border: 1px solid #333;
-}
-/***BLOG DETAILS****/
-
-.section-blog h1.t-blog{
-	margin-top: 60px;
-	margin-bottom: 0;
-}
-.blog-desc.box-text {
-	margin-top: 20px;
-	height: auto;
-}
-.blog-item.first-child {
-	border-bottom: 1px solid #dbdbdb;
-	padding-bottom:70px;
-	padding-top:0px;
-}
-.blog-item {
-	border-bottom: 1px solid #dbdbdb;
-	padding-bottom:70px;
-	padding-top:70px;
-}
-.blog-item:last-child {
-	border-bottom: 0px solid #dbdbdb;
-}
-.blog-desc span.date-blog {
-	float: right;
-	font-weight: 400;
-}
-.blog-img {
-	position: relative;
-    display: block;
-    z-index: 1;
-    overflow: hidden;
-    margin: 0;
-    display: block;
-}
-.blog-img img {
-	max-width: 100%;
-    width: 100%;
-    position: relative;
-    display: block;
-    webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-.blog-img:hover img{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.blog-right-column ul li {
-    list-style-type: none;
-    padding: 20px 0;
-    border-bottom: 1px solid #dbdbdb;
-}
-.blog-right-column ul li:first-child {
-    padding: 0px 0 20px 0;
-}
-.blog-right-column ul li a {
-	color: #616265;
-	text-decoration: none;
-}
-.blog-right-column {
-	padding-left: 60px;
-}
-.blog-right-column h2 {
-	margin-top: 0px;
-}
-.blog-right-column ul li i {
-	margin-right: 5px;
-	font-size: 14px;
-}
-.blog-right-column ul li a:hover i{
-	color: rgb(13, 193, 193);
-}
-
-.box-content.blog-r-posts {
-	padding: 0 0 100px 0;
-}
-
 /***CONTACT*****/
 #section4 {
 	padding: 100px 0 0 0;

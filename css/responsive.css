@@ -1,9 +1,12 @@
 ﻿
 
-@media only screen and (max-width: 770px) 
+@media only screen and (max-width: 770px)
 {
 .box-text, .box-img {
 	margin-bottom: 20px;
+}
+.box-text{
+	height: auto;
 }
 .portfolio .item {
 	width: 49%;
@@ -20,16 +23,13 @@ header nav .menu li {
 .c-info p {
 	float: left;
 }
-/**Blog**/
-.blog-right-column {
-	padding-left:10px;
-}
+
 .box-content.right-position {
 	padding: 0 0 100px 0;
 }
 }
 
-@media only screen and (max-width: 750px) 
+@media only screen and (max-width: 750px)
 {
 /***mini menu***/
 header nav .menu {
@@ -80,20 +80,12 @@ header nav .menu li:last-child {
 .cl-effect-11 a:hover {
 	color: #111;
 }
-/**Blog**/
-.blog-desc span.date-blog {
-	float:left;
-	width: 100%;
-}
-.blog-desc h2 {
-	padding-bottom: 17px;
-}
 }
 @media only screen and (max-width: 420px)
 {
 .signature {
 	display: none;
-}  
+}
 .box-text p.slogan {
 	font-size: 30px;
 }

@@ -28,15 +28,15 @@ app.controller('PageCtrl', function ( $scope/*, $location, $http */) {
 
 app.controller("dataImagesWork", function ($scope) {
     $scope.images_work = [
-          { num: 1, category: 'WEBSITES', src: "1100x1057", description: 'My old Website. Received several Wotd nominations and 1 Wotd Award. ', url_details: "brunofeijao.html" },
-          { num: 2, category: 'WEBSITES', src: "1100x1057", description: 'Portuguese website of Purina Gourmet. Totally redesigned from the ground up.', url_details: "purina.html" },
-          { num: 3, category: 'WEBSITES', src: "1100x1057", description: 'website for a speech therapy clinic called "Sons para crescer".', url_details: "sonsparacrescer.html" },
-          { num: 4, category: 'PROJECTS', src: "1100x1057", description: 'My first project for my web developer course. This was the front-end project of the course.', url_details: "details.html" },
-          { num: 5, category: 'PROJECTS', src: "1100x1057", description: 'My second project for my web developer course. This was the back-end project of the course.', url_details: "details.html" },
-          { num: 6, category: 'FACEBOOK', src: "1100x1057", description: 'Coming soon', url_details: "details.html" },
-          { num: 7, category: 'FACEBOOK', src: "1100x1057", description: 'Coming soon', url_details: "details.html" },
-          { num: 8, category: 'FACEBOOK', src: "1100x1057", description: 'Coming soon', url_details: "details.html" },
-          { num: 9, category: 'FACEBOOK', src: "1100x1057", description: 'Coming soon', url_details: "details.html"}];
+          { num: 1, category: 'WEBSITES', src: "1.png", description: 'My old Website. Received several Wotd nominations and 1 Wotd Award. ', url_details: "brunofeijao.html" },
+          { num: 2, category: 'WEBSITES', src: "2.png", description: 'Portuguese website of Purina Gourmet. Totally redesigned from the ground up.', url_details: "purina.html" },
+          { num: 3, category: 'WEBSITES', src: "3.png", description: 'website for a speech therapy clinic called "Sons para crescer".', url_details: "sonsparacrescer.html" },
+          { num: 4, category: 'PERSONAL PROJECTS', src: "4.png", description: 'My first project for my web developer course. This was the front-end project of the course.', url_details: "details.html" },
+          { num: 5, category: 'PERSONAL PROJECTS', src: "5.png", description: 'My second project for my web developer course. This was the back-end project of the course.', url_details: "details.html" },
+          { num: 6, category: 'FACEBOOK', src: "6.png", description: 'Coming soon', url_details: "details.html" },
+          { num: 7, category: 'FACEBOOK', src: "7.png", description: 'Coming soon', url_details: "details.html" },
+          { num: 8, category: 'FACEBOOK', src: "8.png", description: 'Coming soon', url_details: "details.html" },
+          { num: 9, category: 'FACEBOOK', src: "9.png", description: 'Coming soon', url_details: "details.html"}];
 
 });
 
