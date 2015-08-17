@@ -1,0 +1,70 @@
+div.outer_pagination {
+    display: block;
+}
+div.outer_pagination div.pagination {
+    padding: 3px;
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+div.outer_pagination div.pagination span {
+    display: inline-block;
+    background-color: #FE980F;
+    border: 1px solid #FE980F;
+}
+div.outer_pagination div.pagination span.selected {
+    display: inline-block;
+    margin: 0;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FE980F;
+}
+div.outer_pagination div.pagination span a {
+    display: inline;
+    width: 100%;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+div.outer_pagination div.pagination span.selected a {} div.outer_pagination div.pagination span:hover a {} div.outer_pagination div.pagination a:active,
+div.pagination a:focused {
+    text-decoration: none;
+    background-color: #FE980F;
+}
+div.outer_pagination div.pagination span.disabled {
+    color: #fff;
+    padding: 1px 6px;
+    background-color: #FE980F;
+}
+div.outer_pagination div.pagination form {
+    margin: 5px 0px;
+    right: 0;
+}
+
+
+div.outer_pagination div.white span {
+    background-color: #FE980F;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+div.outer_pagination div.white span:hover {
+    background-color: #fff;
+}
+div.outer_pagination div.white span.selected {
+    background-color: #FE980F;
+}
+div.outer_pagination div.white span a {
+    color: #FE980F !important;
+    background-color: #fff;
+}
+div.outer_pagination div.white span.selected a {} div.outer_pagination div.white span:hover a {
+    background-color: #FE980F;
+    color: #fff !important;
+}
+div.outer_pagination div.white a:active,
+div.white a:focused {
+    background-color: #FE980F;
+}
+div.outer_pagination div.white span.disabled {
+    background-color: #FE980F;
+}

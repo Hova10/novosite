@@ -156,13 +156,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <footer class="box-content">
-                        <div class="footer-logo"><img src="../images/logomeusmall.png" alt="" /></div>
+                        <div class="footer-logo"><img src="../images/logomeusmall.png" alt=""  class="center-block"/></div>
                         <div class="footer-social">
-                            <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                            <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
+                            <p class="text-center">Copyright © 2015 Bruno Feijão. All Rights Reserved.</p>
                         </div>
                     </footer>
                 </div>
@@ -172,46 +168,46 @@
     <script src="../js/jquery.min.js" type="text/javascript"></script>
     <script src="../js/minislide/jquery.flexslider.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.flexslider').flexslider({
-                animation: "slide",
-                controlNav: ""
+    $(document).ready(function () {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: ""
 
-            });
         });
+    });
     </script>
 
     <script src="../js/owl_carousel/owl.carousel.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-        /********************************************
-        CAROUSEL DETAIL
-        ********************************************/
-        $("#owl-demo-details").owlCarousel({
+    /********************************************
+    CAROUSEL DETAIL
+    ********************************************/
+    $("#owl-demo-details").owlCarousel({
 
-            autoPlay: 3000, //Set AutoPlay to 3 seconds
+        autoPlay: 3000, //Set AutoPlay to 3 seconds
 
-            items: 4,
-            itemsDesktop: [1199, 3],
-            itemsDesktopSmall: [979, 3]
+        items: 4,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [979, 3]
 
-        });
+    });
     </script>
 
     <script type="text/javascript">
-        /********************************************
-        CLOSE PAGE DETAIL
-        ********************************************/
-        $(document).ready(function () {
-            $(".close-redirect").on("click", function (event) {
-                event.preventDefault();
-                linkLocation = this.href;
-                $("body").fadeOut(1000, redirectPage);
-            });
-            function redirectPage() {
-                window.location = linkLocation;
-            }
+    /********************************************
+    CLOSE PAGE DETAIL
+    ********************************************/
+    $(document).ready(function () {
+        $(".close-redirect").on("click", function (event) {
+            event.preventDefault();
+            linkLocation = this.href;
+            $("body").fadeOut(1000, redirectPage);
         });
+        function redirectPage() {
+            window.location = linkLocation;
+        }
+    });
     </script>
     <script>
     /*-------------------------------------------------*/

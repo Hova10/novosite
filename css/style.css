@@ -722,7 +722,10 @@ figure.effect-oscar:hover img {
 }
 
 /***FOOTER****/
-
+.footer-social{
+    border-top: 1px solid black;
+    padding: 20px;
+}
 .footer-social a {
 	width: 25px;
     height: 25px;
